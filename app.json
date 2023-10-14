@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "warcraft-board-game-mobile-app",
-    "slug": "warcraft-board-game-mobile-app",
+    "slug": "wbgl-mobile-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2e230fe6-c24f-4152-b733-f3c95be7ab85"
+      }
+    },
+    "owner": "shulinnn"
   }
 }
